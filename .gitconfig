@@ -7,3 +7,5 @@
 	helper = store
 [color]
 	ui = auto
+[core]
+	editor = vim
