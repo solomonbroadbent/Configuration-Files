@@ -236,7 +236,7 @@ client.placeholder	$blueGrey900	$blueGrey800		$lightGreen300	$blueGrey900		$blue
 client.background	$blueGrey900
 
 bar {
-        status_command i3status
+    status_command i3blocks
 	colors {
 		background $blueGrey900
 		separator $lightGreen300
