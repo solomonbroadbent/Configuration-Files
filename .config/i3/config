@@ -85,7 +85,7 @@ bindsym $mod+alt+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+bindsym $mod+c focus child
 
 # Workspace variables
 set $workspace1 "1: Browser"
@@ -137,6 +137,10 @@ bindsym $mod+$numberPadKey7 workspace $workspace7
 bindsym $mod+$numberPadKey8 workspace $workspace8
 bindsym $mod+$numberPadKey9 workspace $workspace9
 bindsym $mod+$numberPadKey0 workspace $workspace10
+
+# Moving windows to specific containers
+# - Window classes found by using commands: xwininfo and xprop
+for_window [class="Spotify"] move to workspace $workspace10, fullscreen enable
 
 # Functions for moving containers
 
