@@ -85,6 +85,9 @@ bindsym $mod+$alt+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
+# unfocus the parent container
+bindsym $mod+Shift+a unfocus parent
+
 # focus the child container
 bindsym $mod+c focus child
 
@@ -231,13 +234,13 @@ set $red500 #AB3737
 #		(when restoring layouts). Border and indicator are ignored
 #	- background color which appears as the background before the window is rendered
 # Arguments are in order:
-# window state,		border color,	background color,	text color,	indicator color,	child border color
-# client.focused	$red400		$red400			$blueGrey050	$lightGreen300		$red400
-client.focused		$blueGrey800	$blueGrey800			$blueGrey050	$lightGreen300		$blueGrey800
-client.unfocused	$blueGrey800	$blueGrey900		$blueGrey300	$blueGrey900		$blueGrey800
+# window state,			border color,	background color,	text color,		indicator color,	child border color
+# client.focused		$red400			$red400				$blueGrey050	$lightGreen300		$red400
+client.focused			$blueGrey300	$blueGrey300		$blueGrey800	$lightGreen300		$blueGrey800
+client.unfocused		$blueGrey800	$blueGrey900		$blueGrey300	$blueGrey900		$blueGrey800
 client.focused_inactive	$blueGrey800	$blueGrey800		$blueGrey050	$blueGrey800		$blueGrey800
-client.urgent		$lightGreen300	$lightGreen300		$blueGrey050	$red400			$lightGreen300
-client.placeholder	$blueGrey900	$blueGrey800		$lightGreen300	$blueGrey900		$blueGrey800
+client.urgent			$lightGreen300	$lightGreen300		$blueGrey050	$red400				$lightGreen300
+client.placeholder		$blueGrey900	$blueGrey800		$lightGreen300	$blueGrey900		$blueGrey800
 
 client.background	$blueGrey900
 
