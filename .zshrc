@@ -2,6 +2,7 @@
 alias solomon-screenSaver="cmatrix -sbC magenta"
 alias solomon-ethernetFix="sudo /home/solomon/scripts/solomon-ethernetFix"
 xset m 1/3
+if [ "$TMUX" = "" ]; then tmux; fi
 #Solomon's changes end
 
 # If you come from bash you might have to change your $PATH.
