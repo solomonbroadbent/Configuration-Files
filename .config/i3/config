@@ -269,8 +269,8 @@ bar {
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 # start dmenu (a program launcher) using the j4-dmenu-desktop wrapper program
 # dmenu is launched at the bottom so that the container bars aren't blocked
-bindsym $mod+space exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -i -fn 'Fira Code-13' -nb '$blueGrey900' -nf '$blueGrey300' -sb '$blueGrey800' -sf '$red400'"
-# bindsym $mod+space exec --no-startup-id dmenu_run -i -fn 'Fira Code-13' -nb '$blueGrey900' -nf '$blueGrey300' -sb '$blueGrey800' -sf '$red400'
+bindsym $mod+space exec --no-startup-id j4-dmenu-desktop --dmenu="dmenu -i -fn 'Fira Code-17' -nb '$blueGrey900' -nf '$blueGrey300' -sb '$blueGrey800' -sf '$red400'"
+# bindsym $mod+space exec --no-startup-id dmenu_run -i -fn 'Fira Code-17' -nb '$blueGrey900' -nf '$blueGrey300' -sb '$blueGrey800' -sf '$red400'
 
 # Change background color
 exec_always --no-startup-id xsetroot -solid "$blueGrey900"
