@@ -90,10 +90,10 @@ bindsym $mod+Shift+a focus child
 
 # Workspace variables
 set $workspace1 "1: Browser"
-set $workspace2 "2: Development"
-set $workspace3 "3: Testing"
-set $workspace4 "4: Documentation"
-set $workspace5 "5: General"
+set $workspace2 "2: Terminal"
+set $workspace3 "3: Development"
+set $workspace4 "4: Testing"
+set $workspace5 "5: Documentation"
 set $workspace6 "6: General"
 set $workspace7 "7: General"
 set $workspace8 "8: General"
