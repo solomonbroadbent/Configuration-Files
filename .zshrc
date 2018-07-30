@@ -1,6 +1,6 @@
 #Solomon's changes start
 alias solomon-screenSaver="cmatrix -sbC magenta"
-xset m 1/3
+#xset m 1/3
 if [ "$TMUX" = "" ]; then tmux; fi
 #Solomon's changes end
 
