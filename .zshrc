@@ -4,6 +4,7 @@ alias solomon-ethernetFix="sudo /home/solomon/scripts/solomon-ethernetFix"
 xset m 1/3
 export EDITOR=/usr/bin/vim
 export VISUAL=$EDITOR
+source ~/.bash_aliases
 #Solomon's changes end
 
 # If you come from bash you might have to change your $PATH.

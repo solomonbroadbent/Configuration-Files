@@ -1,6 +1,8 @@
 *
 !.gitignore
 !.bashrc
+!.bash_aliases
+!.zprofile
 !.zshrc
 !.hyper.js
 !.vimrc
@@ -17,3 +19,4 @@
 !.config/transmission-daemon/settings.json
 !.config/gtk-3.0
 !.config/gtk-3.0/settings.ini
+!.config/nvim/init.vim
