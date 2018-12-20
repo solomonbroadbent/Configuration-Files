@@ -2,7 +2,8 @@
 alias solomon-screenSaver="cmatrix -sbC magenta"
 alias solomon-ethernetFix="sudo /home/solomon/scripts/solomon-ethernetFix"
 xset m 1/3
-if [ "$TMUX" = "" ]; then tmux; fi
+export EDITOR=/usr/bin/vim
+export VISUAL=$EDITOR
 #Solomon's changes end
 
 # If you come from bash you might have to change your $PATH.
@@ -57,7 +58,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(aws bower docker git git-extras gradle mvn npm pip python tmux tmuxinator zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
